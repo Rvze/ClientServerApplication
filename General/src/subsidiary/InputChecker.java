@@ -10,7 +10,7 @@ public class InputChecker {
         return true;
     }
 
-    static boolean checkLong(String str) {
+    public static boolean checkLong(String str) {
         try {
             Long.parseLong(str);
         } catch (Exception e) {
